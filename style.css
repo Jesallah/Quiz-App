@@ -1,0 +1,44 @@
+body{
+    background-color: white;
+    font-family: Inter;
+}
+
+#heading{
+    text-align: center;
+    margin: 60px auto;
+    font-size: 40px;
+}
+
+form{
+    padding: 5px 15px;
+    margin: 0px auto;
+    background-color: aliceblue;
+    border: 10px;
+    border-radius: 20px;
+    width: 40%;
+/*  box-shadow: horizontal displacement vertical displacement shadow spread colour(0,0,0,opacity)*/
+    box-shadow: 0 4px 10px rgba(0,0,0,.1);
+}
+
+button{
+    display: block;
+    margin: 10px auto;
+    background-color: blue;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    padding: 15px 0px;
+    width: 30%;
+    transition: .3s;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(0, 94, 255);
+}
+
+button:active{
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: blue;
+}
