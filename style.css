@@ -44,5 +44,9 @@ button:active{
 }
 
 #questions{
-    
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: blue;
+    font-size: larger;
 }
