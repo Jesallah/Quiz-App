@@ -1,21 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz App</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title> Quiz</title>
 </head>
 <body>
-    <h1 id="heading">Simple Quiz App</h1>
+  <div id="quiz">
 
-    <form id="question-box">
-        <p id="questions"></p>
-        <input type="radio" name="choices" id="first_choice"><p id="option1"></p><br>
-        <input type="radio" name="choices" id="second_choice"><p id="option2"></p><br>
-        <input type="radio" name="choices" id="third_choice"><p id="option3"></p><br>
-        <button type="submit">Next</button>
-    </form>
-<script src="script.js"></script>
-</body>
-</html>
+    <div class="question">
+      <div class="question-text">1. What does HTML stand for?</div>
+      <div class="options">
+        <div><input type="radio" name="q1" value="a"> Hyperlinks and Text Markup Language</div>
+        <div><input type="radio" name="q1" value="b"> Hyper Text Markup Language</div>
+        <div><input type="radio" name="q1" value="c"> Home Tool Markup Language</div>
+        <div><input type="radio" name="q1" value="d"> Hyper Tool Multi Language</div>
+      </div>
+    </div>
+
+    <div class="question">
+      <div class="question-text">2. Which HTML tag is used to create a hyperlink?</div>
+      <div class="options">
+        <div><input type="radio" name="q2" value="a"> &lt;link&gt;</div>
+        <div><input type="radio" name="q2" value="b"> &lt;a&gt;</div>
+        <div><input type="radio" name="q2" value="c"> &lt;href&gt;</div>
+        <div><input type="radio" name="q2" value="d"> &lt;url&gt;</div>
+      </div>
+    </div>
+
+    <div class="question">
+      <div class="question-text">3. What does CSS stand for?</div>
+      <div class="options">
+        <div><input type="radio" name="q3" value="a"> Creative Style System</div>
+        <div><input type="radio" name="q3" value="b"> Cascading Style Sheets</div>
+        <div><input type="radio" name="q3" value="c"> Computer Styling Software</div>
+        <div><input type="radio" name="q3" value="d"> Custom Style Selector</div>
+      </div>
+    </div>
