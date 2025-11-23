@@ -8,11 +8,13 @@ body{
 
 }
 
-body{
-    background-image: url();
-    background-size: cover;          
-    background-repeat: no-repeat;    
-    background-position: center; 
+.header{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: darkblue;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 20px;
 }
 
 /*Main Quiz Style*/
