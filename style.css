@@ -101,3 +101,14 @@ header{
     width: auto;
     border-radius: 10px;
 }
+footer{
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    width: auto;
+    border-radius: 10px;
+}
