@@ -4,8 +4,6 @@ const quizData = [
                 options: ["Hyper Text Markup Language", "High Tech Multi-Language", "Hyper Transfer Markup Language", "Home Tool Markup Language"],
                 answer: "Hyper Text Markup Language"
             },
-
-            
             {
                 question: "Which language is used for styling web pages?",
                 options: ["JavaScript", "Python", "CSS", "Java"],
