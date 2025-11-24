@@ -1,12 +1,4 @@
-document.getElementById("quiz-box").addEventListener("submit", (event) => {
-    event.preventDefault();
-})
-
-let questionsParagraph = document.getElementById("questions");
-let option1 = document.getElementById("option1");
-
-let questionIndex = 0;
-questionsParagraph.textContent = quizData[questionIndex].question;
+let messageBox = document.getElementById("message-p")
 
 
 function calculateScore() {
@@ -17,7 +9,7 @@ function calculateScore() {
         q1 : "b" ,
         q2 : "b" ,
         q3 : "b" ,
-        q4 : "a" ,
+        q4 : "c" ,
         q5 : "c" ,
         q6 : "b" ,
         q7 : "b" ,
@@ -38,6 +30,5 @@ function calculateScore() {
     }
 
     // show result 
-    alert("Your score is: " + score + " / 10");
-    location.reload(); 
+    messageBox.textContent = "Your score is: " + score + " / 10";
 }
