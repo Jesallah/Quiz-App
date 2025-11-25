@@ -31,5 +31,4 @@ function calculateScore() {
 
     // show result 
     messageBox.textContent = "Your score is: " + score + " / 10";
-    location.reload();
 }
